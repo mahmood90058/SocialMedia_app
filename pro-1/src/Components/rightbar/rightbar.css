@@ -1,0 +1,118 @@
+.rightbar{
+    flex: 4;
+}
+
+.rightWrapper{
+    /* top, right , bottom, left */
+    padding: 20px 20px 0 0 ;
+}
+
+.giftContainer{
+    display: flex;
+    align-items: center;
+}
+
+.giftImg{
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+.giftText{
+    font-weight: 300;
+    font-size: 15px;
+}
+
+.rightAd{
+    width: 100%;
+    border-radius:10px ;
+    margin: 30px 0;
+}
+
+.rightTitle{
+    margin-bottom: 20px;
+}
+
+
+
+.rightBarFriendsList{
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+
+.rightbarFriend{
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+.rightBarImgContainer{
+    margin-right: 10px;
+    position: relative;
+}
+.rightbarImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    object-fit: cover;
+
+}
+
+.rightBarOnline{
+    width: 12px;
+    height: 12px;
+    border-radius: 50%;
+    position: absolute;
+    background-color: limegreen;
+    top: -2px;
+    right: 0;
+    border: 2px solid white;
+
+}
+
+
+
+.rightbarTitle{
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 10px;
+  }
+  
+  .rightbarInfo{
+    margin-bottom: 30px;
+  }
+  
+  .rightbarInfoItem{
+    margin-bottom: 10px;
+  }
+  
+  .rightbarInfoKey{
+    font-weight: 500;
+    margin-right: 15px;
+    color: #555;
+  }
+  
+  .rightbarInfoValue{
+    font-weight: 300;
+  }
+  
+  .rightbarFollowings{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  
+  .rightbarFollowing{
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    cursor: pointer;
+  }
+  
+  .rightbarFollowingImg{
+    width: 100px;
+    height: 100px;
+    object-fit: cover;
+    border-radius: 5px;
+  }
+
